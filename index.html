@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv - La Rosa Zacarías</title>
+    <link rel="icon" type="image/png" href="Favicon.png" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/57f489b5ca.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+    <nav>
+        <ul>
+            <li><a href="#body">Inicio</a></li>
+            <li><a href="#Experiencia">Experiencia Laboral</a></li>
+            <li><a href="#Datos">Datos Académicos</a></li>
+            <li><a href="#contact">contacto</a></li>
+        </ul>
+    </nav>
+    <article class="contenido">
+        <div class="bloque-uno">
+            <h1>Zacarías La Rosa</h1>
+            <p><b>Tel:</b> +54 2235427922</p>
+            <p><b>Mail:</b> zacariaslarosa@gmail.com</p>
+            <p><b>Dire:</b> Lebensohn 5625, Mar del Plata, Buenos Aires, Argentina</p>
+            <p><b>GitHub:</b> <a target="_blank"
+                    href="https://github.com/zacarias-mdq">https://github.com/zacarias-mdq</a>
+            </p>
+            <p><b>Linkedin:</b> <a target="_blank"
+                    href="https:linkedin.com/in/zacarías-la-rosa-721b9417a">linkedin.com/in/zacarías-la-rosa-721b9417a
+                </a></p>
+        </div>
+        <div class="bloque-dos">
+            <img id="fotoperfil" class="imgredonda" src="img/perfil.png" alt="foto de perfil">
+        </div>
+    </article>
+    <article>
+        <div class="bloque-dos"><img src="img/trabajos.png" alt="icono trabajo">
+        </div>
+        <div class="bloque-uno">
+            <h3 id="Experiencia">Experiencia Laboral</h3>
+            <experiencia>
+                <h4>Support tasks</h4>
+                <p>GSA BPO | 2017 - Actual</p>
+                <h6>- Soporte técnico y administrativo.</h6>
+            </experiencia>
+            <experiencia>
+                <h4>Operador de monitoreo y Sistemas de Seguridad</h4>
+                <p>INSURED, Sistemas de Alarmas | 2009 - 2017</p>
+                <h6>- Soporte técnico y administrativo.</h6>
+            </experiencia>
+            <experiencia>
+                <h4>Ventas y Atención al Público</h4>
+                <p>Fénix Informática y Electrónica | 2005 - 2009</p>
+                <h6>- Atención al público.</h6>
+            </experiencia>
+            <experiencia>
+                <h4>Ventas y Atención al Público</h4>
+                <p>Leader Computación | 2002 - 2005</p>
+                <h6>- Atención al público.</h6>
+            </experiencia>
+
+        </div>
+    </article>
+    <article>
+        <div class="bloque-uno">
+            <div id="Datos">
+                <h3>Datos Académicos</h3>
+                <academia>
+                    <h4>Universidad Tecnológica Nacional</h4>
+                    <p>Tecnicatura en programación | Actual</p>
+                </academia>
+                <academia>
+                    <h4>E.E.T. N°5</h4>
+                    <p>écnico en Informática personal y profesional con orientación a
+                        gestión Bancaria, Financieras y Seguros</p>
+                </academia>
+                <academia>
+                    <h4>Argentina Programa 4.0</h4>
+                    <p>Desarrollo FrontEnd | Actual</p>
+                </academia>
+
+            </div>
+            <div>
+                <h3>Lenguajes</h3>
+                <div id="Lenguajes">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                </div>
+            </div>
+        </div>
+        <div class="bloque-dos"><img src="img/estudios.png" alt="icono estudio">
+        </div>
+    </article>
+    <article>
+        <div class="bloque-tres">
+            <h3>Habilidades</h3>
+            <p>- Diseño de páginas web.</p>
+            <p>- Diseño de logotipos.</p>
+            <p>- Imagen de marca.</p>
+            <p>- Diseño de aplicaciones.</p>
+        </div>
+        <div class="bloque-tres">
+            <h3>Idiomas</h3>
+            <academia>
+                <h4>Castellano:</h4>
+                <p>Nativo.</p>
+            </academia>
+            <academia>
+                <h4>Ingles:</h4>
+                <p>Basico.</p>
+            </academia>
+        </div>
+        <div class="bloque-tres">
+            <h3>+Info</h3>
+            <p>-Carné de conducir.</p>
+            <p>-Vehículo propio.</p>
+            <p>- Disponibilidad full time.</p>
+            <h3 id="contact">Contacto</h3>
+            <!--debe ir un formulario para enviar contacto-->
+            <form class="formulario" action="https://formsubmit.co/f135985462079f0a4434086c53e56b88" method="POST">
+                <input class="campos" type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido*" required />
+                <input class="campos" type="text" name="empresa" id="empresa" placeholder="Empresa" />
+                <input class="campos" type="email" name="mail" id="mail" placeholder="E-mail*" required />
+                <textarea name="comentario" class="campos" placeholder="Comentario*" required></textarea>
+                <h6>*Datos obligatorios</h6>
+                <input class="boton" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            </p>
+
+        </div>
+    </article>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

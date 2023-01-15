@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-image: url(https://media4.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif?cid=ecf05e47im6ai2jf2wyqjsn9f96fb54gzjiwb1opob03fu66&rid=giphy.gif&ct=g);
+    min-width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline-block;    
+    color: white;
+    padding: 10px 30px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+nav a{    
+    color: white;
+}
+li:hover {
+    background: rosybrown;
+}
+
+ul {
+    background: rgba(1, 5, 45, 0.9);    
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    padding-top: 40px;
+  }
+
+@media (max-width: 600px) {
+    
+    li{
+        border-width: 1px 0px 0px 0px;
+        border-style: solid;
+        border-color: white;
+    }
+
+    ul {
+        background: black;
+        flex-direction: column;       
+    }
+
+    article {
+        height: 200px;     
+    }
+   
+}
+
+
+article {
+    height: 400px;
+    display: flex;
+}
+
+article:last-of-type{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+article:last-of-type div{
+    border-width: 0px 2px 0px 2px;
+        border-style:dashed;
+        border-color: black;
+}
+
+div {
+        text-align: center;
+}
+
+#Lenguajes{
+    display: flex;
+    margin-top: 30px; 
+    justify-content:space-around; 
+    font-size: 50px;   
+    color: rgb(35, 0, 85)
+}
+
+
+#Datos{
+    height: 50%;
+    
+}
+
+.bloque-uno {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;    
+    bac;
+}
+
+.bloque-dos {
+    width: 35%;
+    
+}
+
+div.bloque-dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloque-tres {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;    
+    border: 1px 0px solid black;
+}
+
+img {
+    
+    width: 60%;
+}
+
+.imgredonda {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 65px;
+    margin: 5px 5px 35px 5px;  
+    margin-bottom: ;
+    color: rgb(01, 5, 45);  
+
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin: 10px 0px;    
+    color: rgb(01, 5, 45);  
+}
+
+h4{
+    margin: 5px;
+    font-weight:bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.campos, .boton{
+    margin: 5px;
+    padding: 0.25rem;
+    
+    
+}
+
+#comentario{    
+    height: 80px;           
+    
+}
+
+.boton{
+    color: white;
+    background-color: rgb(01, 5, 45);  
+    height: 2rem;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.formulario h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-align: left;
+    margin-left: 6px;
+}
+
+input{
+    border-radius: 5px;
+}
